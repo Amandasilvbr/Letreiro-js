@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(2, 1, 21);
+}
+
+@media screen and (max-width: 700px) {
+  #javascriptImg {
+    width: 300px;
+  }
+  .main{
+    height: 80vh;
+  }
+}
+
+.main {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  font-size: 30p;
+  margin: 30px 10px 0px 10px;
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.144);
+  color: rgb(196, 196, 196);
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.753);
+  color: rgb(42, 41, 41);
+  transition: 1s;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+#infoBtn {
+  height: 25px;
+}
